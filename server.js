@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 // setting options for cors origins 
 const corsOptions = {
-  origin: 'https://glittering-kashata-cb2f7b.netlify.app', // Adjust this to your client's URL on netlify with no / at the end
+  origin: 'https://budge-buddy.netlify.app', // Adjust this to your client's URL on netlify with no / at the end
   credentials: false, // we aren't tossing cookies around
   methods: ['GET', 'POST', 'OPTIONS'], // Allowed HTTP methods 
   allowedHeaders: ['Content-Type', 'Authorization'], // this allows auth headers to get passed from client to server this is the `authorization bearer token` stuff
